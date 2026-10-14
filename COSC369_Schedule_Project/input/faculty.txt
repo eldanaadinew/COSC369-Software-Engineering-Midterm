@@ -1,0 +1,2 @@
+# lecturer|department|office|required_hours|availability|courses_taught
+Dr. Appolo Tankeh|Computer Science|CS 108|8.75|Monday=10:45-13:00;Tuesday=10:45-13:00;Wednesday=10:45-13:00,15:00-17:00|COSC 631,COSC 369,COSC 330

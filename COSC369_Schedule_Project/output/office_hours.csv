@@ -1,0 +1,5 @@
+Faculty,Department,Office,Day,Start,End,Related Course
+"Dr. Appolo Tankeh","Computer Science","CS 108",Monday,10:45,13:00,"COSC 330"
+"Dr. Appolo Tankeh","Computer Science","CS 108",Tuesday,10:45,13:00,"COSC 369"
+"Dr. Appolo Tankeh","Computer Science","CS 108",Wednesday,10:45,13:00,"COSC 330"
+"Dr. Appolo Tankeh","Computer Science","CS 108",Wednesday,15:00,17:00,"COSC 631"

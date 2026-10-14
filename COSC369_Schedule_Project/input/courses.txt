@@ -1,0 +1,4 @@
+# course_code|course_title|lecturer|days|start_time|end_time|room
+COSC 631|Database Management|Dr. Appolo Tankeh|Wednesday|17:00|19:30|CS 313
+COSC 369|Software Engineering I|Dr. Appolo Tankeh|Tuesday,Thursday|09:30|10:45|CS 108
+COSC 330|Systems Programming I|Dr. Appolo Tankeh|Monday,Wednesday|09:30|10:45|CS 311

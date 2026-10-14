@@ -1,0 +1,16 @@
+Dr. Appolo Tankeh
+Computer Science | Office: CS 108
+
+CLASS SCHEDULE
+COSC 631   Database Management      Wednesday                5:00 PM to 7:30 PM  CS 313
+COSC 369   Software Engineering I   Tuesday & Thursday       9:30 AM to 10:45 AM  CS 108
+COSC 330   Systems Programming I    Monday & Wednesday       9:30 AM to 10:45 AM  CS 311
+
+OFFICE HOURS
+Monday     10:45 AM - 1:00 PM (COSC 330)
+Tuesday    10:45 AM - 1:00 PM (COSC 369)
+Wednesday  10:45 AM - 1:00 PM (COSC 330)
+Wednesday  3:00 PM - 5:00 PM (COSC 631)
+
+NOTE: Instructors are not to be interrupted during class times.
+
