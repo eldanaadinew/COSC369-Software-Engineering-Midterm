@@ -14,7 +14,9 @@ from docx.shared import Inches, Pt
 
 
 def display_time(value):
-    return datetime.strptime(value, "%H:%M").strftime("%-I:%M %p")
+    time = datetime.strptime(value, "%H:%M")
+    hour = time.hour % 12 or 12
+    return f"{hour}:{time.minute:02d} {'AM' if time.hour < 12 else 'PM'}"
 
 
 def shade(cell, fill):
