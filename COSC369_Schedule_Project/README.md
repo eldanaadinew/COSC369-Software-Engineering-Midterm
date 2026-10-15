@@ -74,7 +74,7 @@ Availability uses `Day=HH:MM-HH:MM`; separate days with semicolons and multiple 
 
 ## Scheduling rule
 
-For each faculty member, the program examines availability blocks in the order supplied. It rejects blocks that overlap the lecturer's class time, selects enough non-conflicting time to meet the required weekly total, and trims only the final block when needed. Each selected block is labeled with the nearest course taught by that lecturer on that day, or `General` when no same-day course exists. The output always includes the warning that instructors should not be interrupted during class times.
+For each faculty member, the program examines availability blocks in the order supplied. It rejects blocks that overlap the lecturer's class time or previously selected office hours, selects enough non-conflicting time to meet the required weekly total, and trims only the final block when needed. Each selected block is labeled with the nearest course taught by that lecturer on that day, or `General` when no same-day course exists. The output always includes the warning that instructors should not be interrupted during class times.
 
 ## Project organization
 
