@@ -92,6 +92,18 @@ int generate_office_hours(const Course courses[], int course_count,
             int duration;
             OfficeHour *hour;
             if (conflicts_with_class(&faculty[f], slot, courses, course_count)) continue;
+            /* Do not schedule an office-hour block over an earlier selected block. */
+            int office_conflict = 0;
+            for (int h = 0; h < *hour_count; h++) {
+                if (strcmp(hours[h].lecturer, faculty[f].name) == 0 &&
+                    strcmp(hours[h].day, slot->day) == 0 &&
+                    overlaps(slot->start_minutes, slot->end_minutes,
+                             hours[h].start_minutes, hours[h].end_minutes)) {
+                    office_conflict = 1;
+                    break;
+                }
+            }
+            if (office_conflict) continue;
             if (*hour_count >= MAX_OFFICE_HOURS) {
                 snprintf(error, error_size, "Too many generated office-hour blocks");
                 return 0;
