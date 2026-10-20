@@ -1,6 +1,18 @@
-# COSC 369 Faculty Schedule Generator
+# Faculty Schedule Generator — Software Engineering Midterm
 
-This project reads exactly two local input files and produces class-schedule and office-hours documents. The sample data uses Dr. Appolo Tankeh and reproduces the courses, times, rooms, and office hours shown in the supplied project image. The values are read from the files and are not hard-coded in the program.
+**Academic team project | Three-person team | Grade: A**
+
+This project began as a modular C faculty scheduling application and was expanded for the October 2026 software engineering midterm. The updated version adds a Python-generated Prolog knowledge base while retaining the C application.
+
+**My role:** Helped coordinate division of work, short progress check-ins, and deliverables while contributing to the technical project. GitHub commits do not independently establish coordination responsibilities.
+
+**Outcome:** The C program generates class and office-hours schedules; the midterm extension generates Prolog facts from the same inputs and the C-produced office-hours output. Earned an A. Optional Prolog query demonstrations are not claimed as executed without testing.
+
+**Progression:** Original C assignment → October Python/Prolog midterm extension. The original-assignment repository remains private.
+
+---
+
+## Technical Documentation
 
 ## Requirements
 
