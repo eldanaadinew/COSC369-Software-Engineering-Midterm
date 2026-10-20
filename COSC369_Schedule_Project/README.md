@@ -1,10 +1,10 @@
 # Faculty Schedule Generator — Software Engineering Midterm
 
-**Academic team project | Three-person team | Grade: A**
+**Three-person team project | Grade: A**
 
 This project began as a modular C faculty scheduling application and was expanded for the October 2026 software engineering midterm. The updated version adds a Python-generated Prolog knowledge base while retaining the C application.
 
-**My role:** Helped coordinate division of work, short progress check-ins, and deliverables while contributing to the technical project. GitHub commits do not independently establish coordination responsibilities.
+**My role:** Helped coordinate division of work, short progress check-ins, and deliverables while contributing to the technical project. 
 
 **Outcome:** The C program generates class and office-hours schedules; the midterm extension generates Prolog facts from the same inputs and the C-produced office-hours output. Earned an A. Optional Prolog query demonstrations are not claimed as executed without testing.
 
